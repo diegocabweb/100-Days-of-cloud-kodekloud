@@ -16,6 +16,7 @@ El Nautilus Development Team necesita configurar una nueva instancia EC2 con un 
 ---
 
 ## 🏗️ Diagrama de Alto Nivel - Arquitectura General
+```bash
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                            INTERNET / USUARIOS                             │
 │                                                                             │
@@ -91,7 +92,7 @@ El Nautilus Development Team necesita configurar una nueva instancia EC2 con un 
 │  │              Regla: Puerto 80 abierto (0.0.0.0/0)                  │   │
 │  └─────────────────────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────────────────┘
-
+```
 ## Diagrama de flujo de solicitudes
 ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
 │                  │     │                  │     │                  │
